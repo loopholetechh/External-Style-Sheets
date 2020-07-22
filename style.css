@@ -1,0 +1,98 @@
+body
+{
+    margin: 0;
+    background-color: wheat;
+    font-size: 20px;
+}
+
+header
+{
+    background-color: black;
+    padding: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+nav
+{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 2px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav li
+{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav a 
+{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+nav a:hover
+{
+    color: cyan;
+    box-shadow: 0 0 10px 0 cyan;
+}
+
+main
+{
+    background-color: teal;
+    z-index: 2;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 10px 0 black;
+}
+
+.container
+{
+    background-color: black; /* this property will be applied if background-image property is not supported */
+    background-image: linear-gradient(to bottom right, indigo, purple);
+    width: 48%;
+    padding: 5px;
+    z-index: 2;
+    text-align: left;
+    box-shadow: 0 0 10px 0 black;
+    margin: 10px;
+    color: white;
+}
+
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+}
+
+#id1
+{
+    padding: 10px;
+}
+
+footer
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    padding: 15px;
+}

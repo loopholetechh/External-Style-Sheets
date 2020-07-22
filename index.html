@@ -1,0 +1,124 @@
+<!-- This is a pre tailored HTML document in this document we will apply the CSS effect with an external CSS file -->
+<!-- You can pause the video and reffer this code -->
+<!-- The <!DOCTYPE html>: defines HTML5 Document -->
+<!DOCTYPE html>
+<!-- <html> : start of the document -->
+<html lang="en">
+    <!-- <head> : all the essential data required by webpage resides here -->
+    <head>
+        <!-- <meta> : it contains all the metadata about the webpage, eg, author of the page, what is it related to.. -->
+        <!-- It helps the WebCrawler to sort the pages according to its purpose -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <style> : this tag contains all the things required for webpage beautificattion i.e. internal CSS -->
+        <style>
+             /* Usually the CSS part is written here and it is called as internal CSS */
+        </style>
+        <!-- <title> : The title of the webage that we see on the browser tab resides here -->
+        <title>HTML5 Tags</title>
+
+        <!-- link tag is used to link the exernal files like CSS, Favicon etc... So we will make a file named style.css -->
+        <link rel="stylesheet" href="style.css">
+
+
+        <!-- <src> : to link external JavaScript File -->
+        <script src="index.js"></script>
+    </head>
+    <!-- <body> : all the contents that are visible to viewer resides in this tag -->
+    <body>
+        <!-- Prior to HTML5 there were only few limited tags available to structure the pages -->
+        <!-- But in HTML5 developer can use user defined tags like <header>, <footer>, <nav>, <content>, etc -->
+        <header><i>Header</i></header>
+        <nav>
+                <li> <a href="#"> Option 1 </a> </li>
+                <li> <a href="#"> Option 2 </a> </li>
+                <li> <a href="#"> Option 3 </a> </li>
+                <li style="float: right;"> This is inside &lt;nav&gt; tag </li>  <!-- This <li> has inline CSS i.e. it has "style" attribute -->
+        </nav>
+        <main>
+            <br>
+            <strong>This is &lt; main &gt; Section</strong>
+            <br> <hr>
+            <div class="container left">
+                <strong>This in Left division</strong>
+                <br><br>
+                <sub>subtext</sub> Text <sup>supertext</sup>
+                <b> Bold Text </b>
+                <i> Italics </i>
+                <u> Underline</u>
+                <small>Small</small>
+                <big>Big</big>
+                <strike>Strike Through</strike>
+                <br>
+                <ol>
+                    <li>This</li>
+                    <li>is a</li>
+                    <li>Ordered List</li>
+                </ol>
+                <ul>
+                    <li>This</li>
+                    <li>is a</li>
+                    <li>Unordered List</li>
+                </ul>
+                <ol>
+                    <li>This</li>
+                    <li>is</li>
+                    <ul>
+                        <li>combination</li>
+                        <li>of lists</li>
+                    </ul>
+                </ol>
+            </div>
+            <div class="container right">
+                <strong>This in Right division</strong>
+                <br><br>
+                <table border="1" cellpadding='5px'>
+                    <caption>This is a table Caption</caption>
+                    <tr>
+                        <th>Heading 1 in 1<sup>st</sup> row</th>
+                        <th>Heading 2 in 1<sup>st</sup> row</th>
+                    </tr>
+                    <tr>
+                        <td>Data in 2nd row</td>
+                        <td>Data in 2nd row</td>
+                    </tr>
+                    <tr>
+                        <th>Heading in 3rd row</th>
+                        <td>Data in 3rd row</td>
+                    </tr>
+                </table>
+                <br>
+                <form action="#">
+                    <label for="">Label1</label> : 
+                    <input type="text" placeholder="input-text 1">
+                    <br><br>
+                    <label for="">Label2</label> : <textarea name="" id="" cols="30" rows="3" placeholder="This is a text-area"></textarea>
+                    <br><br>
+                    <label for="">Select Box : </label> 
+                    <select>
+                        <option disabled selected>Select Option</option>
+                        <option value="">Option 1</option>
+                        <option value="">Option 2</option>
+                        <option value="">Option 3</option>
+                    </select>
+                    <br><br>
+                    <label for="">Radio Button : </label> <input type="radio" name="r1" id="">Option1 &nbsp;&nbsp; <input type="radio" name="r1" id=""> Option2
+                    <br><br>
+                    <input type="checkbox" name="" id=""> CheckBox
+                    <br><br>
+                    <button type="submit">Submit Button</button>
+                </form>
+            </div>
+        </main>
+        <div id="id1">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod beatae et distinctio? Iure architecto quas repellendus, doloribus ad libero enim, itaque voluptatem quod alias nulla. Incidunt reiciendis illo provident dolore. <br>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum quaerat ducimus, tempora quisquam praesentium eum molestias perferendis beatae quam amet eligendi odit vero maiores delectus a saepe dolorum sint iste! <br>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod beatae et distinctio? Iure architecto quas repellendus, doloribus ad libero enim, itaque voluptatem quod alias nulla. Incidunt reiciendis illo provident dolore. <br>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum quaerat ducimus, tempora quisquam praesentium eum molestias perferendis beatae quam amet eligendi odit vero maiores delectus a saepe dolorum sint iste! <br>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod beatae et distinctio? Iure architecto quas repellendus, doloribus ad libero enim, itaque voluptatem quod alias nulla. Incidunt reiciendis illo provident dolore. <br>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod beatae et distinctio? Iure architecto quas repellendus, doloribus ad libero enim, itaque voluptatem quod alias nulla. Incidunt reiciendis illo provident dolore. <br>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod beatae et distinctio? Iure architecto quas repellendus, doloribus ad libero enim, itaque voluptatem quod alias nulla. Incidunt reiciendis illo provident dolore.
+        </div>
+        <footer>This is in a Footer Tag</footer>
+    </body>
+</html>
